@@ -1,0 +1,134 @@
+<div class="card">
+    <div class="card-header">
+        <h5>Mis datos</h5>
+        <span class="text-muted">En esta sección verá sus antecedentes personales</span>
+        <div class="card-header-right">
+            <ul class="list-unstyled card-option">
+                <li><i class="feather icon-minus minimize-card"></i></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-block">
+        <div class="col-xl-12">
+            <div class="card-block text-center text-white" id="imagenFuncionario">
+                <div class="m-b-25">
+                    <img class="img-radius" alt="User-Profile-Image" id="fotoFuncionario">
+                </div>
+                <div class="btn btn-mini btn-danger" onClick="modificaImagenFuncionario();">Modificar</div>
+            </div>
+        </div>
+    </div>
+    <div class="card-block">
+        <h6 class="m-b-20 p-b-5 b-b-default f-w-600">Información personal</h6>
+        <div class="row">
+            <div class="col-sm-6">
+                <p class="m-b-10 f-w-600">Nombres</p>
+                <h6 class="text-muted f-w-400" id="nombresFuncionario"></h6>
+            </div>
+            <div class="col-sm-6">
+                <p class="m-b-10 f-w-600">Apellidos</p>
+                <h6 class="text-muted f-w-400" id="apellidosFuncionario"></h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <p class="m-b-10 f-w-600">Fecha de nacimiento</p>
+                <h6 class="text-muted f-w-400" id="fechaNacimiento"></h6>
+            </div>
+            <div class="col-sm-6">
+                <p class="m-b-10 f-w-600">Rut</p>
+                <h6 class="text-muted f-w-400" id="funcionarioRut"></h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <p class="m-b-10 f-w-600">Profesión</p>
+                <h6 class="text-muted f-w-300">
+                    <div class="row">
+                        <div class="col-sm-10">
+                          <input type="text" name="profesionFuncionario" id="profesionFuncionario" class="form-control">  
+                        </div>
+                        <div class="col-sm-2">
+                            <span class="btn btn-mini btn-danger br-5">
+                                <i class="feather icon-edit"></i>
+                            </span>
+                        </div>
+                    </div>              
+                </h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <p class="m-b-10 f-w-600">Domicilio</p>
+                <h6 class="text-muted f-w-400">
+                    <div class="row">
+                        <div class="col-sm-10">
+                          <input type="text" name="funcionarioDomicilioCalle" id="funcionarioDomicilioCalle" class="form-control">  
+                        </div>
+                        <div class="col-sm-2">
+                            <span class="btn btn-mini btn-danger br-5">
+                                <i class="feather icon-edit"></i>
+                            </span>
+                        </div>
+                    </div>
+                </h6>
+            </div>
+            <div class="col-sm-3">
+                <p class="m-b-10 f-w-600">Región</p>
+                <h6 class="text-muted f-w-400">Metropolitana</h6>
+            </div>
+            <div class="col-sm-3">
+                <p class="m-b-10 f-w-600">Comuna</p>
+                <h6 class="text-muted f-w-400">Lampa</h6>
+            </div>
+        </div>
+        <h6 class="m-b-20 m-t-40 p-b-5 b-b-default f-w-600">Información laboral</h6>
+        <div class="row">
+            <div class="col-sm-6">
+                <p class="m-b-10 f-w-600">Región</p>
+                <h6 class="text-muted f-w-400">Maule</h6>
+            </div>
+            <div class="col-sm-6">
+                <p class="m-b-10 f-w-600">Área</p>
+                <h6 class="text-muted f-w-400">Curicó</h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <p class="m-b-10 f-w-600">Estamento</p>
+                <h6 class="text-muted f-w-400">Profesional</h6>
+            </div>
+            <div class="col-sm-6">
+                <p class="m-b-10 f-w-600">Calidad jurídica</p>
+                <h6 class="text-muted f-w-400">Contrata</h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <p class="m-b-10 f-w-600">Grado</p>
+                <h6 class="text-muted f-w-400">13 EUS</h6>
+            </div>
+            <div class="col-sm-6">
+                <p class="m-b-10 f-w-600">Funciones</p>
+                <h6 class="text-muted f-w-400">Profesional</h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <p class="m-b-10 f-w-600">Cargo</p>
+                <h6 class="text-muted f-w-400">PROFESIONAL DE APOYO A LA UNIDAD DE INFORMÁTICA</h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <p class="m-b-10 f-w-600">Pertenece a junta calificadora</p>
+                <h6 class="text-muted f-w-400">No</h6>
+            </div>
+            <div class="col-sm-6">
+                <p class="m-b-10 f-w-600">Representante funcionarios</p>
+                <h6 class="text-muted f-w-400">Si</h6>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="assets/js/funcionarios/funcionarios.js"></script>
